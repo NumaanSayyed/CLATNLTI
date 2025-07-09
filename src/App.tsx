@@ -8,15 +8,17 @@ import VideoSection from "./components/VideoSection";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import StickyButton from "./utils/StickyButton";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const App: React.FC = () => {
-
-
- 
-
-
-
-
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, 
+      once: true,     
+    });
+  }, []);
   return (
     <div className="min-h-screen bg-white">
       <style>{`

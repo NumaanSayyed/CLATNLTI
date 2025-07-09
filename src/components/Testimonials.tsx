@@ -1,4 +1,5 @@
 import { useState , useEffect} from "react";
+import reviews from '../images/reviews.png';
 
 function Testimonials() {
     const [currentTestimonial, setCurrentTestimonial] = useState(0);
@@ -10,7 +11,7 @@ function Testimonials() {
           quote:
             "CLATNLTI's personalized mentorship and daily practice sessions helped me achieve my dream rank. The mock tests were exactly like the real exam.",
           image:
-            "https://readdy.ai/api/search-image?query=confident%20young%20indian%20male%20student%20in%20formal%20shirt%20smiling%20at%20camera%20with%20books%20in%20background%20professional%20education%20portrait&width=150&height=150&seq=testimonial1&orientation=squarish",
+            reviews,
         },
         {
           name: "Priya Patel",
@@ -18,7 +19,7 @@ function Testimonials() {
           quote:
             "The crash course was intensive yet comprehensive. The 24/7 doubt support feature was a game-changer during my preparation.",
           image:
-            "https://readdy.ai/api/search-image?query=smart%20young%20indian%20female%20student%20wearing%20glasses%20with%20confident%20smile%20holding%20law%20books%20in%20modern%20library%20setting&width=150&height=150&seq=testimonial2&orientation=squarish",
+            reviews,
         },
         {
           name: "Rohit Kumar",
@@ -26,7 +27,7 @@ function Testimonials() {
           quote:
             "Best investment for CLAT preparation. The faculty's expertise and systematic approach made complex topics easy to understand.",
           image:
-            "https://readdy.ai/api/search-image?query=determined%20young%20indian%20male%20student%20in%20casual%20wear%20with%20notebook%20and%20pen%20in%20bright%20study%20room%20background&width=150&height=150&seq=testimonial3&orientation=squarish",
+            reviews,
         },
         {
           name: "Sneha Reddy",
@@ -34,7 +35,7 @@ function Testimonials() {
           quote:
             "The one-on-one mentorship sessions were incredibly valuable. My mentor guided me through every step of my preparation journey.",
           image:
-            "https://readdy.ai/api/search-image?query=focused%20young%20indian%20female%20student%20with%20long%20hair%20studying%20with%20laptop%20and%20books%20in%20bright%20academic%20environment&width=150&height=150&seq=testimonial4&orientation=squarish",
+            reviews,
         },
         {
           name: "Vikash Singh",
@@ -42,7 +43,7 @@ function Testimonials() {
           quote:
             "CLATNLTI's mock tests and performance analysis helped me identify my weak areas and improve consistently.",
           image:
-            "https://readdy.ai/api/search-image?query=serious%20young%20indian%20male%20student%20in%20blue%20shirt%20with%20textbooks%20and%20notes%20in%20professional%20study%20setting&width=150&height=150&seq=testimonial5&orientation=squarish",
+            reviews,
         },
       ];
       

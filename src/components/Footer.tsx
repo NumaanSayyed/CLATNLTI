@@ -37,6 +37,11 @@ function Footer() {
                               Quick Links
                           </h3>
                           <ul className="space-y-3">
+                            <li>
+                                  <a href="#" className="hover:text-yellow-400 cursor-pointer">
+                                      Home
+                                  </a>
+                              </li>
                               <li>
                                   <a href="#" className="hover:text-yellow-400 cursor-pointer">
                                       About Us
@@ -45,21 +50,6 @@ function Footer() {
                               <li>
                                   <a href="#" className="hover:text-yellow-400 cursor-pointer">
                                       Courses
-                                  </a>
-                              </li>
-                              <li>
-                                  <a href="#" className="hover:text-yellow-400 cursor-pointer">
-                                      Faculty
-                                  </a>
-                              </li>
-                              <li>
-                                  <a href="#" className="hover:text-yellow-400 cursor-pointer">
-                                      Results
-                                  </a>
-                              </li>
-                              <li>
-                                  <a href="#" className="hover:text-yellow-400 cursor-pointer">
-                                      Blog
                                   </a>
                               </li>
                               <li>
@@ -77,11 +67,11 @@ function Footer() {
                           <div className="space-y-4">
                               <div className="flex items-center">
                                   <i className="fas fa-map-marker-alt text-yellow-400 mr-3"></i>
-                                  <span>123 Education Street, Delhi, India 110001</span>
+                                  <span>Kurla West, LBS Marg Road, Mumbai - 400070</span>
                               </div>
                               <div className="flex items-center">
                                   <i className="fas fa-phone text-yellow-400 mr-3"></i>
-                                  <span>+91 98765 43210</span>
+                                  <span>+91 86576 55887</span>
                               </div>
                               <div className="flex items-center">
                                   <i className="fas fa-envelope text-yellow-400 mr-3"></i>

@@ -1,4 +1,4 @@
-
+import heroImage from '../images/heroPageImg.jpg';
 function Hero() {
   return (
     <>
@@ -53,7 +53,7 @@ function Hero() {
                       <div className="hidden lg:block">
                           <div className="relative">
                               <img
-                                  src="https://readdy.ai/api/search-image?query=confident%20indian%20law%20student%20holding%20books%20with%20graduation%20cap%20standing%20in%20front%20of%20supreme%20court%20building%20with%20golden%20sunlight%20and%20inspiring%20academic%20atmosphere&width=600&height=700&seq=heroimage&orientation=portrait"
+                                  src={heroImage} 
                                   alt="CLAT Success Story"
                                   className="w-full h-auto rounded-lg shadow-2xl"
                               />
