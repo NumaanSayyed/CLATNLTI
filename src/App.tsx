@@ -240,15 +240,6 @@ const App: React.FC = () => {
      <Testimonials/>
      <Footer/>
      <StickyButton/>
-   
-
-   
-
-    
-
-   
-
-    
     </div>
   );
 };
