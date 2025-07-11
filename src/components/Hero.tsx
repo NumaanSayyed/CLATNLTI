@@ -1,4 +1,5 @@
 import heroImage from '../images/heroPageImg.jpg';
+
 function Hero() {
   return (
     <>
@@ -22,16 +23,16 @@ function Hero() {
 
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                   <div className="grid lg:grid-cols-2 gap-12 items-center">
-                      <div className="text-white animate-slide-up">
+                      <div className="text-white" data-aos="fade-right">
                           <h1 className="font-poppins font-bold text-4xl md:text-6xl leading-tight mb-6">
                               Crack <span className="gradient-text">CLAT 2026</span> with
                               India's Best Mentors
                           </h1>
-                          <p className="text-xl md:text-2xl mb-8 text-gray-200">
+                          <p className="text-xl md:text-2xl mb-8 text-gray-200" data-aos="fade-up" data-aos-delay="200">
                               Join thousands of successful students who achieved their dream
                               ranks with our proven methodology and expert guidance.
                           </p>
-                          <div className="flex flex-col sm:flex-row gap-4">
+                          <div className="flex flex-col sm:flex-row gap-4" data-aos="zoom-in" data-aos-delay="400">
                               <button className="btn-primary px-8 py-4 !rounded-button text-lg cursor-pointer whitespace-nowrap">
                                   Join Crash Course
                               </button>
@@ -39,7 +40,7 @@ function Hero() {
                                   Book Free Demo
                               </button>
                           </div>
-                          <div className="mt-8 flex items-center space-x-6 text-sm">
+                          <div className="mt-8 flex items-center space-x-6 text-sm" data-aos="fade-up" data-aos-delay="600">
                               <div className="flex items-center">
                                   <i className="fas fa-users text-yellow-400 mr-2"></i>
                                   <span>10,000+ Students</span>
@@ -50,16 +51,18 @@ function Hero() {
                               </div>
                           </div>
                       </div>
-                      <div className="hidden lg:block">
+
+                      <div className="hidden lg:block" data-aos="fade-left" data-aos-delay="300">
                           <div className="relative">
                               <img
-                                  src={heroImage} 
+                                  src={heroImage}
                                   alt="CLAT Success Story"
                                   className="w-full h-auto rounded-lg shadow-2xl"
                               />
                           </div>
                       </div>
                   </div>
+
               </div>
           </section>
     </>

@@ -12,6 +12,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 
+
 const App: React.FC = () => {
   useEffect(() => {
     AOS.init({
@@ -19,8 +20,10 @@ const App: React.FC = () => {
       once: true,     
     });
   }, []);
+
+  
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white overflow-x-hidden">
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
         
